@@ -1,0 +1,67 @@
+.img-1, .img-2, .img-3 {
+	width: 350px;
+	height: 250px;
+}
+
+.img-second {
+	display: block;
+	margin: auto;
+}
+
+.section-1 {
+	display: flex;
+}
+
+p{
+	text-align: justify;
+}
+
+.sub-container {
+	padding: 33px;
+	width: 100%;
+}
+
+.img-1 {
+	background-image: url(./img/proyectos.jpg);
+	background-size: cover;
+	margin: 30px auto;
+}
+
+.img-2 {
+	background-image: url(./img/entrenamiento.jpg);
+	background-size: cover;
+	margin: 30px auto;
+}
+
+.img-3 {
+	background-image: url(./img/workshops.jpg);
+	background-size: cover;
+	margin: 27px auto;
+}
+
+.paragraph-center {
+	text-align: center;
+}
+
+.p-center {
+	bottom: 0;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.5s;
+	
+}
+
+.p-center:hover{
+	background-color: rgba(36, 111, 255, 0.5);
+	background: rgba(36, 111, 255, 0.5);
+	color: rgba(36, 111, 255, 0.5);
+	color: white;
+}
+
