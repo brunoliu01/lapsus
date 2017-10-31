@@ -85,7 +85,17 @@ p{
 }
 
 .img-prueba {
-	width: 200px;
+	width: 300px;
 	height: 200px;
 	background: skyblue;
+}
+
+.article-container {
+	display: flex;
+}
+
+.img-section{
+	padding: 40px;
+	width: 100%;
+	text-align: center;
 }
