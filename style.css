@@ -83,3 +83,9 @@ p{
 	width: 100%;
 	height: auto;
 }
+
+.img-prueba {
+	width: 200px;
+	height: 200px;
+	background: skyblue;
+}
