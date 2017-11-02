@@ -99,3 +99,44 @@ p{
 	width: 100%;
 	text-align: center;
 }
+
+.img-clientes {
+	width: 200px;
+	height: 100px;
+	background: blue;
+	margin: 10px;
+}
+
+.clientes {
+	display: flex;
+	justify-content: space-between;
+}
+
+.img-clientes-2 {
+	width: 200px;
+	height: 100px;
+	background: blue;
+	margin: 10px;
+	margin: 0 30px 0 30px;
+}
+
+.clientes-2 {
+	display: flex;
+	justify-content: center;
+} 
+
+.img-clientes {
+	background-image: url(./img/everis-logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.img-clientes-2 {
+	background-image: url(./img/everis-logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.contac-text {
+	font-size: 60px;
+}
