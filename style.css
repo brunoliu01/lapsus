@@ -144,7 +144,6 @@ p{
 .box-contact {
 	width: 30px;
 	height: 30px;
-	background: green;
 }
 
 .ubic, .numero, .mensaje {
@@ -154,4 +153,13 @@ p{
 .contac-container {
 	display: flex;
 	justify-content: space-around;
+}
+
+.sub-cont-text {
+	display: flex;
+	align-items: center;
+}
+
+.line-cont {
+	font-size: 20px;
 }
