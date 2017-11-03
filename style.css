@@ -140,3 +140,18 @@ p{
 .contac-text {
 	font-size: 60px;
 }
+ 
+.box-contact {
+	width: 30px;
+	height: 30px;
+	background: green;
+}
+
+.ubic, .numero, .mensaje {
+	display: flex;
+}
+
+.contac-container {
+	display: flex;
+	justify-content: space-around;
+}
