@@ -41,7 +41,7 @@ a {
 }
 
 .img-1, .img-2, .img-3 {
-	width: 350px;
+	width: 100%;
 	height: 250px;
 }
 
@@ -52,10 +52,11 @@ a {
 
 .section-1 {
 	display: flex;
+	justify-content: center;
 }
 
-p{
-	text-align: justify;
+.text-parallax {
+	text-align: center;
 }
 
 .sub-container {
@@ -119,6 +120,7 @@ p{
     align-items: center;
     justify-content: space-around;
     background-repeat: no-repeat;
+    text-align: center;
 }
 
 .enfoque {
@@ -230,7 +232,6 @@ p{
 }
 
 .cont-slider {
-	max-width: 1400px;
 	width: 100%;
 	margin: auto;
 }
@@ -243,16 +244,20 @@ p{
 
 .slide1{
 	background-image: url(./img/1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .slide2{
 	background-image: url(./img/2.jpg);
-	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .slide3{
 	background-image: url(./img/3.jpg);
-	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .slick-dots li button:before {
 	font-size: 16px;
@@ -270,9 +275,10 @@ p{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-    height: 80%;
+    height: 90%;
     justify-content: center;
 }
+
 
 .slide-button {
 	text-align: center;
@@ -285,4 +291,44 @@ p{
 	font-weight: bold;
 	margin-top: -120px;
 
+}
+
+iframe {
+	width: 100%;
+}
+
+@media (max-width: 500px) {
+	.section-1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+    	flex-wrap: wrap;
+	}
+
+	.parallax {
+		margin: auto;
+		width: 100%;
+		height: 300px;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.clientes {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 10px;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contac-container {
+		flex-direction: column;
+		margin: 10px;
+	}
 }
