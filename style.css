@@ -35,6 +35,9 @@ a {
 	background: black;
 	justify-content: space-around;
 	padding: 12px;
+	position: fixed;
+	z-index: 1;
+	width: 100%
 }
 
 .img-1, .img-2, .img-3 {
@@ -146,6 +149,30 @@ p{
 	background-image: url(./img/everis-logo.png);
 	background-size: contain;
 	background-repeat: no-repeat;
+}
+
+.cli1{
+	background-image: url(./img/everis-logo.png);	
+}
+
+.cli2{
+	background-image: url(./img/backus-logo.png);
+}
+
+.cli3{
+	background-image: url(./img/sunedu-logo.png);
+}
+
+.cli4{
+	background-image: url(./img/HUMANE-logo.png);
+}
+
+.cli5{
+	background-image: url(./img/GMC-logo.png);
+}
+
+.cli6{
+	background-image: url(./img/pandero-logo.png);
 }
 
 .clientes {
