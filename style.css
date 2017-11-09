@@ -1,6 +1,40 @@
 
 body {
 	margin: 0;
+	overflow-x: hidden;
+}
+
+.img-logo {
+	width: 216px;
+	height:47px;
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+ul li a {
+  	margin-right: 13px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+.navegation-2 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.header {
+	display: flex;
+	background: black;
+	justify-content: space-around;
+	padding: 12px;
 }
 
 .img-1, .img-2, .img-3 {
@@ -171,4 +205,35 @@ p{
 
 .map {
 	margin-top: 50px;
+}
+
+.img-contacto {
+	height: 70px;
+	width: 70px;
+}
+
+.cont-slider {
+	max-width: 1400px;
+	width: 100%;
+	margin: auto;
+}
+
+.slide {
+	width: 100%;
+	height: 680px;
+	background-color:black;
+}
+
+.slide1{
+	background-image: url(./img/1.jpg);
+}
+
+.slide2{
+	background-image: url(./img/2.jpg);
+	background-size: 100%;
+}
+
+.slide3{
+	background-image: url(./img/3.jpg);
+	background-size: 100%;
 }
