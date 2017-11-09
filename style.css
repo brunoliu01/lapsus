@@ -308,10 +308,11 @@ iframe {
   }
 
 .rectangulo {
-	width: 24px;
-	height: 5px;
+	width: 33px;
+	height: 6px;
 	background: white;
 	margin: 2px;
+	border-radius: 2px;
 }
 
 @media (max-width: 500px) {
