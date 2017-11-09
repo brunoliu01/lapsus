@@ -86,6 +86,11 @@ a {
 	text-align: center;
 }
 
+.serv{
+	font-size: 50px;
+	margin: 0;
+}
+
 .p-center {
 	bottom: 0;
 	color: white;
@@ -129,13 +134,14 @@ a {
 }
 
 .img-prueba {
-	width: 235px;
+	width: 100%;
 	height: 150px;
 	background: skyblue;
 }
 
 .article-container {
 	display: flex;
+	align-items: center;
 }
 
 .img-section{
@@ -297,6 +303,17 @@ iframe {
 	width: 100%;
 }
 
+.hamburguer {
+	 margin: auto;
+  }
+
+.rectangulo {
+	width: 24px;
+	height: 5px;
+	background: white;
+	margin: 2px;
+}
+
 @media (max-width: 500px) {
 	.section-1 {
 		display: flex;
@@ -330,5 +347,17 @@ iframe {
 	.contac-container {
 		flex-direction: column;
 		margin: 10px;
+	}
+
+	.article-container {
+		flex-direction: column;
+	}
+
+	.navegation-2 ul{
+		display: none;
+	}
+
+	.serv{
+		text-align: center;
 	}
 }

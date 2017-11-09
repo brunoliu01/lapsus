@@ -2,7 +2,6 @@ $(".slideshow").slick({
 	infinite: true,
   dots: true,
    slidesToScroll: 1,
-  //autoplay: true,
- // autoplaySpeed: 3000,
-  arrows: true
+  autoplay: true,
+ autoplaySpeed: 3000
 });
