@@ -86,7 +86,7 @@ a {
 	text-align: center;
 }
 
-.serv{
+.serv {
 	font-size: 50px;
 	margin: 0 0 0 30px;
 }
@@ -149,7 +149,7 @@ a {
 	align-items: center;
 }
 
-.img-section{
+.img-section {
 	padding: 40px;
 	width: 100%;
 	text-align: center;
@@ -168,27 +168,27 @@ a {
 	display: none;
 }
 
-.cli1{
+.cli1 {
 	background-image: url(./img/everis-logo.png);	
 }
 
-.cli2{
+.cli2 {
 	background-image: url(./img/backus-logo.png);
 }
 
-.cli3{
+.cli3 {
 	background-image: url(./img/sunedu-logo.png);
 }
 
-.cli4{
+.cli4 {
 	background-image: url(./img/HUMANE-logo.png);
 }
 
-.cli5{
+.cli5 {
 	background-image: url(./img/GMC-logo.png);
 }
 
-.cli6{
+.cli6 {
 	background-image: url(./img/pandero-logo.png);
 }
 
@@ -257,13 +257,13 @@ a {
 	background-color: black;
 }
 
-.slide1{
+.slide1 {
 	background-image: url(./img/1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-.slide2{
+.slide2 {
 	background-image: url(./img/2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -274,6 +274,7 @@ a {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
 .slick-dots li button:before {
 	font-size: 16px;
 	color: white;
@@ -332,7 +333,7 @@ iframe {
 	    right: 25px;
 	}
 
-	.navegation-2 ul{
+	.navegation-2 ul {
 		position: fixed;
 	    display: flex;
 	    flex-direction: column;
@@ -343,6 +344,10 @@ iframe {
 	    height: 90vh;
 	    padding: 0;
 	    width: 190px;
+	}
+
+	.trans {
+		right: 0 !important;
 	}
 
 }
@@ -387,7 +392,7 @@ iframe {
 	}
 
 	
-	.serv{
+	.serv {
 		text-align: center;
 	}
 
@@ -401,13 +406,12 @@ iframe {
 		text-align: center;
 	}
 
-.client-text{
-	font-size: 50px;
-}
+	.client-text {
+		font-size: 50px;
+	}
 
-
-.contac-text {
-	font-size: 50px;
-	margin: auto;
-}
-}
+	.contac-text {
+		font-size: 50px;
+		margin: auto;
+	}
+	}
