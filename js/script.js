@@ -1,3 +1,5 @@
+
+//este código es para hacer el slider con slick
 $(document).ready(function(){
 	$(".slideshow").slick({
 		infinite: true,
@@ -6,7 +8,8 @@ $(document).ready(function(){
 	    autoplay: true,
 	    autoplaySpeed: 3000
 	});
-
+//este script sirve para hacer el menu hamburguesa
+//"hamburguer" es el ícono al que le daré clic y "navegation-2 ul" es a lo que le daré la nueva clase "trans"
 	$(".hamburguer").click(function(){
 		$(".navegation-2 ul").toggleClass("trans");
 	});

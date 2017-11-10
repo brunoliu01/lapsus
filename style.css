@@ -16,7 +16,7 @@ ul {
 }
 
 ul li a {
-  	margin-right: 13px;
+  	margin: 0 12px;
 }
 
 a {
@@ -27,6 +27,10 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+li:hover {
+	border-bottom: 2px solid white;
 }
 
 
@@ -269,7 +273,7 @@ a {
 	background-repeat: no-repeat;
 }
 
-.slide3{
+.slide3 {
 	background-image: url(./img/3.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -308,6 +312,11 @@ a {
 	margin-top: -120px;
 
 }
+
+ul{
+	transition: 0.5s;
+}
+
 
 iframe {
 	width: 100%;
@@ -348,6 +357,11 @@ iframe {
 
 	.trans {
 		right: 0 !important;
+		transition: 0.5s;
+	}
+
+	li:hover {
+		border-bottom: 2px;
 	}
 
 }
@@ -392,12 +406,9 @@ iframe {
 	}
 
 	
-	.serv {
-		text-align: center;
-	}
+
 
 	
-
 	.enfoque-text {
 		text-align: center;
 	}
@@ -414,4 +425,4 @@ iframe {
 		font-size: 50px;
 		margin: auto;
 	}
-	}
+}
