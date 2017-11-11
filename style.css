@@ -404,10 +404,6 @@ iframe {
 	.article-container {
 		flex-direction: column;
 	}
-
-	
-
-
 	
 	.enfoque-text {
 		text-align: center;
@@ -424,5 +420,10 @@ iframe {
 	.contac-text {
 		font-size: 50px;
 		margin: auto;
+	}
+
+	.img-logo {
+		width: 170px;
+		height:38px;
 	}
 }
