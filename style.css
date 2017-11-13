@@ -148,7 +148,7 @@ li:hover {
 
 .img-prueba {
 	width: 100%;
-	height: 150px;
+	height: 200px;
 	background: skyblue;
 }
 
@@ -158,7 +158,7 @@ li:hover {
 }
 
 .img-section {
-	padding: 40px;
+	padding: 26px;
 	width: 100%;
 	text-align: center;
 }
@@ -317,6 +317,15 @@ li:hover {
 
 }
 
+.img-map {
+	width: 100%;
+	display:block;
+}
+
+.text-nos {
+	color: white;
+}
+
 ul{
 	transition: 0.5s;
 }
@@ -324,6 +333,7 @@ ul{
 
 iframe {
 	width: 100%;
+	display: block;
 }
 
 .hamburguer {
@@ -336,6 +346,30 @@ iframe {
 	background: white;
 	margin: 2px;
 	border-radius: 2px;
+}
+
+.contenedor-nosotros {
+	background: black;
+	width: 100%;
+	height: 401px;
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-nos {
+	text-align: center;
+	width: 100%;
+    height: 100%;
+}
+
+.cont-text-nosotros {
+	width: 82%;
+
+}
+
+.text-size-nos {
+	font-size: 40px;
 }
 
 @media (max-width: 860px) {
@@ -415,10 +449,12 @@ iframe {
 
 	.sub-container {
 		text-align: center;
+		align-items: center;
 	}
 
 	.client-text {
 		font-size: 50px;
+	
 	}
 
 	.contac-text {
@@ -430,4 +466,14 @@ iframe {
 		width: 170px;
 		height:38px;
 	}
+
+	.nov-text {
+		text-align: center;
+		margin: 0;
+	}
+
+	.contenedor-nosotros {
+		height: 651px;
+}
+
 }
