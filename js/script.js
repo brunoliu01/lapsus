@@ -16,3 +16,7 @@ $(document).ready(function(){
 });
 
 
+ $('.serviciosSection').click(function(){
+    $("html, body").animate({ scrollTop: $('.cont-slider').height() - 78 }, 600);
+
+});
