@@ -302,7 +302,7 @@ li:hover {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	width: 98%;
     height: 90%;
     justify-content: center;
 }
@@ -389,7 +389,7 @@ iframe {
 	    display: flex;
 	    flex-direction: column;
 	    right: -190px;
-	    top: 54px;
+	    top: 48px;
 	    text-align: center;
 	    background: black;
 	    height: 90vh;
