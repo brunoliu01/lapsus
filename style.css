@@ -61,7 +61,8 @@ li:hover {
 
 .section-1 {
 	display: flex;
-	justify-content: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
 }
 
 .text-parallax {
@@ -70,7 +71,7 @@ li:hover {
 
 .sub-container {
 	padding: 33px;
-	width: 100%;
+	width: 361px;
 }
 
 .img-1 {
@@ -239,7 +240,9 @@ li:hover {
 
 .sub-cont-text {
 	display: flex;
-	align-items: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .line-cont {
@@ -455,6 +458,8 @@ iframe {
 	.sub-container {
 		text-align: center;
 		align-items: center;
+		width: 307px;
+
 	}
 
 	.client-text {
