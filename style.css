@@ -403,6 +403,10 @@ iframe {
 		border-bottom: 2px;
 	}
 
+	.article-container {
+		flex-direction: column;
+	}
+
 }
 
 @media (max-width: 500px) {
