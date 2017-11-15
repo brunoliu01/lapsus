@@ -151,7 +151,8 @@ li:hover {
 .img-prueba {
 	width: 100%;
 	height: 200px;
-	background: skyblue;
+	background-image: url(./img/entrenamiento.jpg);
+	background-size: cover;
 }
 
 .article-container {
