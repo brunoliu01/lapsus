@@ -31,7 +31,4 @@ $(document).ready(function(){
 	    $("html,body").animate({scrollTop: a + $('.serv').height() + $('.section-1').height()  +$('.parallax').height() + $('.enfoque-text').height() + $('.enfoque').height() + $('.nov-section').height() + $('.client-text').height() + $('.clientes').height() -78 },600);
 	});
 
-	$('.nosotros-section').click(function(){
-	    $("html,body").animate({scrollTop: a + $('.serv').height() + $('.section-1').height()  +$('.parallax').height() + $('.enfoque-text').height() + $('.enfoque').height() + $('.nov-section').height() + $('.client-text').height() + $('.clientes').height() + $('.section-contact').height() -78 },600);
-	});
 });
