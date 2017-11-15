@@ -1,5 +1,6 @@
 
 //este código es para hacer el slider con slick
+
 $(document).ready(function(){
 	$(".slideshow").slick({
 		infinite: true,
