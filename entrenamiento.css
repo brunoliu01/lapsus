@@ -1,0 +1,44 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+*{font-family: 'Open Sans', sans-serif;}
+
+
+.section-entrenamiento {
+	padding: 25px;
+	font-size: 25px;
+	display: block;
+	justify-content: space-around;
+
+}
+
+.bold-p {
+	font-weight: bold;
+}
+
+.bold-text {
+	font-size: 60px;
+}
+
+.container-entren {
+	display: flex;
+
+}
+
+.entren-2 {
+	margin-top: 187px;
+}
+
+body {
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 500px) {
+	.section-entrenamiento {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}

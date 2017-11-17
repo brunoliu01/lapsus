@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+*{font-family: 'Open Sans', sans-serif;}
+
+.section-proyect {
+	margin: auto;
+	padding: 60px;
+	font-size: 26px;
+	margin-top: 60px;
+}
+
+.text-2 {
+	margin-top: 130px;
+}
+
+
+.spam-1, .spam-2 {
+	font-weight: bold;
+}
