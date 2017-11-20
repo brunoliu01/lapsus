@@ -319,7 +319,8 @@ li:hover {
 	background: #2376b5;
 	border: 1px;
 	font-weight: bold;
-	margin-top: -120px;
+	margin-top: -120px;width: 159px;
+    font-size: 17px;
 
 }
 
