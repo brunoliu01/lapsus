@@ -19,16 +19,28 @@ body {
 }
 
 .text-size-nos {
-	font-size: 40px;
+	font-size: 55px;
+	text-align: center;
 }
 
 .text-nos {
 	text-align: center;
 	width: 100%;
     height: 100%;
+    margin-top: 100px;
 }
 
 
 .container-nosotros {
-	height: 50px;
+	height: 40px;
+}
+
+.contrarest {
+	margin: 0;
+}
+
+@media (max-width: 500px) {
+	.text-nos {
+		text-align: justify;
+	}
 }
