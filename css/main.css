@@ -8,15 +8,15 @@ html {
 }
 
 body {
-	background-color: black;
-	padding-top: 3%;
+	background-color: #2376b5;
+	padding-top: 1px;
 }
 
 .container {
 	max-width: 450px;
 	height: auto;
 	background-color: #EFEFEF;
-	margin: 5% auto;
+	margin: 8% auto;
 	padding-bottom: 1rem;
 	
 }
