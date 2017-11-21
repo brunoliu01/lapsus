@@ -27,7 +27,7 @@ body {
 	text-align: center;
 	width: 100%;
     height: 100%;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 
@@ -42,5 +42,13 @@ body {
 @media (max-width: 500px) {
 	.text-nos {
 		text-align: justify;
+	}
+
+	.text-nos {
+		margin-top: 100px;
+	}
+
+	.text-size-nos {
+		margin: 20px 0 -70px 0;
 	}
 }
