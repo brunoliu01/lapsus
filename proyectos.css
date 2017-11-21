@@ -18,3 +18,17 @@
 .spam-1, .spam-2 {
 	font-weight: bold;
 }
+
+@media (max-width: 500px) {
+	.text-1, .text-2{
+		font-size: 22px;
+	}
+
+	h1 {
+		font-size: 31px;
+	}
+
+	.text-2 {
+		margin-top: 0;
+	}
+}
