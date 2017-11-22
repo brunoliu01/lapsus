@@ -533,5 +533,9 @@ iframe {
 	.paragraph-center {
 		margin-left: 42px;
 	}
+
+	.a2:hover {
+		border-bottom: 2px solid black;
+	}
 }
 
