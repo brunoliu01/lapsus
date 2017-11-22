@@ -35,7 +35,7 @@ a {
 	cursor: pointer;
 }
 
-a:hover {
+.a2:hover {
 	border-bottom: 2px solid white;
 }
 
