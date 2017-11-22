@@ -497,7 +497,6 @@ iframe {
 		text-align: center;
 		align-items: center;
 		width: 307px;
-
 	}
 
 	.client-text {
@@ -532,7 +531,6 @@ iframe {
 	}
 
 	
-
 	.paragraph-center {
 		margin-left: 42px;
 		width: 100%;
@@ -548,6 +546,6 @@ iframe {
 	}
 
 	.slick-next, .slick-arrow {
-    display: none;
+   		 display: none;
 }
 
