@@ -428,6 +428,25 @@ iframe {
 		flex-direction: column;
 	}
 
+	.img-blue {
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+
+	.text-blue {
+		text-align: justify;
+		 width: 100%;
+		 margin: auto;
+	}
+
+	.blue-contenido {
+		width: 320px;
+	}
+
+	.img-second {
+		margin-top: 30px;
+	}
 }
 
 @media (max-width: 500px) {
@@ -512,25 +531,7 @@ iframe {
 	    margin: 0 0 0 0px;
 	}
 
-	.img-blue {
-		flex-direction: column;
-		text-align: center;
-		align-items: center;
-	}
-
-	.text-blue {
-		text-align: justify;
-		 width: 100%;
-		 margin: auto;
-	}
-
-	.blue-contenido {
-		width: 320px;
-	}
-
-	.img-second {
-		margin-top: 30px;
-	}
+	
 
 	.paragraph-center {
 		margin-left: 42px;
@@ -545,5 +546,8 @@ iframe {
 	.img-section {
 		margin: auto;
 	}
+
+	.slick-next, .slick-arrow {
+    display: none;
 }
 
