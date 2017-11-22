@@ -379,6 +379,11 @@ iframe {
 	font-size: 40px;
 }
 
+.img-blue {
+	display: flex;
+	margin-right: 20px;
+}
+
 @media (max-width: 860px) {
 	.hamburguer {
 		display: block;

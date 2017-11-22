@@ -40,6 +40,14 @@ body {
 	margin: 0;
 }
 
+@media (max-width: 800px) {
+	.container-nosotros {
+		height: 69px;
+    	width: 43vh;
+   		margin-left: 20px;
+	}
+}
+
 @media (max-width: 500px) {
 	.text-nos {
 		text-align: justify;
@@ -52,4 +60,5 @@ body {
 	.text-size-nos {
 		margin: 20px 0 -70px 0;
 	}
+
 }
