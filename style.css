@@ -35,7 +35,7 @@ a {
 	cursor: pointer;
 }
 
-li:hover {
+a:hover {
 	border-bottom: 2px solid white;
 }
 
@@ -389,6 +389,10 @@ iframe {
 
 .blue-contenido {
 	width: 320px;
+}
+
+.text-blue {
+	text-align: justify;
 }
 
 @media (max-width: 860px) {
