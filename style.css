@@ -519,7 +519,7 @@ iframe {
 
 	.text-blue {
 		text-align: justify;
-		margin-left: 25px;
+		margin-left: 55px;
 	}
 
 	.blue-contenido {
@@ -527,7 +527,11 @@ iframe {
 	}
 
 	.img-second {
-		margin-left: 24px;
+		margin-left: 39px;
+	}
+
+	.paragraph-center {
+		margin-left: 42px;
 	}
 }
 
