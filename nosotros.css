@@ -55,11 +55,14 @@ body {
 
 	.text-nos {
 		margin-top: 118px;
-		margin-left: 20px
+		margin-left: 17px
 	}
 
 	.text-size-nos {
 		margin: 20px 0 -70px 0;
 	}
 
+	.nos-2 {
+		    margin-top: 80px;
+	}
 }
