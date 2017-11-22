@@ -164,7 +164,6 @@ a {
 
 .img-section {
 	padding: 26px;
-	width: 100%;
 	text-align: center;
 }
 
@@ -446,6 +445,7 @@ iframe {
 		height: 300px;
 		text-align: center;
 		font-size: 20px;
+		margin-top: 25px;
 	}
 
 	.clientes {
@@ -515,11 +515,13 @@ iframe {
 	.img-blue {
 		flex-direction: column;
 		text-align: center;
+		align-items: center;
 	}
 
 	.text-blue {
 		text-align: justify;
-		margin-left: 55px;
+		 width: 100%;
+		 margin: auto;
 	}
 
 	.blue-contenido {
@@ -527,15 +529,21 @@ iframe {
 	}
 
 	.img-second {
-		margin-left: 39px;
+		margin-top: 30px;
 	}
 
 	.paragraph-center {
 		margin-left: 42px;
+		width: 100%;
+		margin: auto;
 	}
 
 	.a2:hover {
 		border-bottom: 2px solid black;
+	}
+
+	.img-section {
+		margin: auto;
 	}
 }
 
