@@ -56,8 +56,8 @@ li:hover {
 }
 
 .img-second {
-	display: block;
-	margin: auto;
+	/*display: block;
+	margin: auto;*/
 }
 
 .section-1 {
@@ -381,7 +381,14 @@ iframe {
 
 .img-blue {
 	display: flex;
+	margin-top: 30px;
 	margin-right: 20px;
+	text-align: center;
+	justify-content: space-around;
+}
+
+.blue-contenido {
+	width: 320px;
 }
 
 @media (max-width: 860px) {
@@ -501,5 +508,9 @@ iframe {
 	    margin: 0 0 0 0px;
 	}
 
+	.img-blue {
+		flex-direction: column;
+		text-align: center;
+	}
 }
 
