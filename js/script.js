@@ -18,7 +18,7 @@ $(document).ready(function(){
 	});
 
 	$('.novedades-section').click(function(){
-		$("html,body").animate({scrollTop: a + $('.serv').height() + $('.section-1').height() +('.img-blue').height() +$('.parallax').height() + $('.enfoque-text').height() + $('.enfoque').height() -78 },600);
+		$("html,body").animate({scrollTop: a + $('.serv').height() + $('.section-1').height() +$('.img-blue').height() + $('.parallax').height() + $('.enfoque-text').height() + $('.img-enfoque').height() -78 },600);
 	});
 
 	$('.serviciosSection').click(function(){
@@ -26,11 +26,11 @@ $(document).ready(function(){
 	});
 
 	$('.client-section').click(function(){
-	    $("html,body").animate({scrollTop: a + $('.serv').height() + $('.section-1').height()  +$('.parallax').height() + $('.enfoque-text').height() + $('.enfoque').height() + $('.nov-section').height() -78 },600);
+	    $("html,body").animate({scrollTop: a + $('.serv').height() + $('.section-1').height() +$('.img-blue').height() + $('.parallax').height() + $('.enfoque-text').height() + $('.enfoque').height() + $('.nov-section').height() -78 },600);
 	});
 
 	$('.contacto-section').click(function(){
-	    $("html,body").animate({scrollTop: a + $('.serv').height() + $('.section-1').height()  +$('.parallax').height() + $('.enfoque-text').height() + $('.enfoque').height() + $('.nov-section').height() + $('.client-text').height() + $('.clientes').height() -78 },600);
+	    $("html,body").animate({scrollTop: a + $('.serv').height() + $('.section-1').height() +$('.img-blue').height()  + $('.parallax').height() + $('.enfoque-text').height() + $('.enfoque').height() + $('.nov-section').height() + $('.client-text').height() + $('.clientes').height() -78 },600);
 	});
 	
 	
